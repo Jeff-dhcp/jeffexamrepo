@@ -29,10 +29,12 @@ default="windows"
 
 
 }
-variable "loadbalancer" {
+variable "azurermwindowswebapp" {
 type=string
-default="loadbalancer"
+default="lambo"
 }
+
+
 variable "OSPF" {
 type=string
 default="OSPF"
