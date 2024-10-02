@@ -11,9 +11,12 @@ default= "westeurope"
 }
 
 
-variable "client_secret"{
+variable "serviceplan"{
   type=string
+default= "terraformsp"
 }
+
+
 variable "tenant_id"{
   type=string
 }
