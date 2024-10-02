@@ -1,5 +1,6 @@
-variable ""{
+variable "resourcegroup"{
   type=string
+default= "terraformexam"
 }
 
 variable "client_id"{
