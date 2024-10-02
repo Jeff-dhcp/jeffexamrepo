@@ -3,9 +3,14 @@ variable "resourcegroup"{
 default= "terraformexam"
 }
 
-variable "client_id"{
+
+
+variable "location"{
   type=string
+default= "westeurope"
 }
+
+
 variable "client_secret"{
   type=string
 }
