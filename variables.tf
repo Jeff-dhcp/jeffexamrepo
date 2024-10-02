@@ -17,12 +17,16 @@ default= "terraformsp"
 }
 
 
-variable "tenant_id"{
+variable "skuname"{
   type=string
+default "skuterraform"
+
+
 }
-variable "azurermresourcegroup"{ 
+variable "ostype"{ 
 type=string
-default="myresourcegroup"
+default="windows"
+
 
 }
 variable "loadbalancer" {
