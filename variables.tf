@@ -35,7 +35,4 @@ default="lambo"
 }
 
 
-variable "OSPF" {
-type=string
-default="OSPF"
-}
+
