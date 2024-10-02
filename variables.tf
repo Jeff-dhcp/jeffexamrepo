@@ -1,4 +1,4 @@
-variable "subscription_id"{
+variable ""{
   type=string
 }
 
