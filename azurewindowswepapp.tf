@@ -14,7 +14,7 @@ resource "azurerm_service_plan" "serviceplan" {
 }
 
 resource "azurerm_windows_web_app" "examapp" {
-  name                = "windowsapp"
+  name                = var.azurermwindowswebapp
   resource_group_name = azurerm_resource_group.terraformexam.name
   location            = azurerm_resource_group.terraformexam.location
   service_plan_id     = azurerm_service_plan.serviceplan.id
