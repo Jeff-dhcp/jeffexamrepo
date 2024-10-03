@@ -58,7 +58,7 @@ default= "ferrari"
 
 variable "skuname" {
 type=string
-default = "redsku"
+default = "P1v2"
 }
 
 
@@ -69,7 +69,7 @@ type=string
 default= "black"
 }
 
-variable "ostype" {
+variable "os_type" {
 type=string
-default = "yellow"
+default = "Windows"
 }
