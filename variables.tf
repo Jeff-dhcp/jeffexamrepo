@@ -11,10 +11,6 @@ default= "westeurope"
 }
 
 
-variable "serviceplan"{
-  type=string
-default= "terraformsp"
-}
 
 
 
