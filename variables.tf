@@ -47,7 +47,7 @@ type=string
 default= "ferrari"
 }
 
-variable "skuname" {
+variable "sku_name" {
 type=string
 default = "P1v2"
 }
@@ -55,7 +55,7 @@ default = "P1v2"
 
 
 
-variable "serviceplan" {
+variable "service_plan" {
 type=string
 default= "black"
 }
