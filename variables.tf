@@ -19,7 +19,7 @@ default= "terraformsp"
 
 variable "skuname"{
   type=string
-default "skuterraform"
+default= "skuterraform"
 
 
 }
