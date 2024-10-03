@@ -15,9 +15,9 @@ resource "azurerm_service_plan" "serviceplan" {
 
 resource "azurerm_windows_web_app" "examapp" {
   name                = "windowsapp"
-  resource_group_name = azurerm_resource_group.example.name
-  location            = azurerm_service_plan.example.location
-  service_plan_id     = azurerm_service_plan.example.id
+  resource_group_name = azurerm_resource_group.terraformexam.name
+  location            = azurerm_resource_group.terraformexam.location
+  service_plan_id     = azurerm_service_plan.serviceplan.id
 
   site_config {}
 }
