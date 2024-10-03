@@ -7,7 +7,7 @@ resource "azurerm_resource_group" "terraformexam" {
 
 resource "azurerm_service_plan" "serviceplan" {
   name                = var.serivce_plan_name
-  resource_group_name = azurerm_resource_group.appterraform.name
+  resource_group_name = azurerm_resource_group.lambo.name
   location            = azurerm_resource_group.serviceplan.location
   sku_name            = var.sku_name
   os_type             = var.os_type
