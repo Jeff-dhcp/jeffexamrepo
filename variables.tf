@@ -60,3 +60,16 @@ variable "skuname" {
 type=string
 default = "redsku"
 }
+
+
+
+
+variable "serviceplan" {
+type=string
+default= "black"
+}
+
+variable "ostype" {
+type=string
+default = "yellow"
+}
