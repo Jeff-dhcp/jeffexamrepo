@@ -6,7 +6,7 @@ resource "azurerm_resource_group" "terraformexam" {
 }
 
 resource "azurerm_service_plan" "serviceplan" {
-  name                = var.serivce_plan_name
+  name                = var.service_plan_name
   resource_group_name = azurerm_resource_group.terraformexam.name
   location            = azurerm_resource_group.terraformexam.location
   sku_name            = var.sku_name
