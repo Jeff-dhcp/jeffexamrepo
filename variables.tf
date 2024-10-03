@@ -53,5 +53,5 @@ variable "tenant_id"{
 
 variable "name" {
 type=string
-default= "ferrari
+default= "ferrari"
 }
