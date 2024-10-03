@@ -55,3 +55,8 @@ variable "name" {
 type=string
 default= "ferrari"
 }
+
+variable "skuname" {
+type=string
+default = "redsku"
+}
