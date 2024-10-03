@@ -55,7 +55,7 @@ default = "P1v2"
 
 
 
-variable "service_plan" {
+variable "service_plan_name" {
 type=string
 default= "black"
 }
