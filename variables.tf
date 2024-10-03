@@ -17,18 +17,13 @@ default= "terraformsp"
 }
 
 
-variable "skuname"{
-  type=string
-default= "skuterraform"
 
 
-}
-variable "ostype"{ 
-type=string
-default="windows"
 
 
-}
+
+
+
 variable "azurermwindowswebapp" {
 type=string
 default="lambo"
