@@ -13,9 +13,7 @@ default= "westeurope"
 
 
 
- {
-default= "Montreal College Information Technology"
-}
+
 
 
 
