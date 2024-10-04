@@ -13,7 +13,7 @@ default= "westeurope"
 
 
 
-variable  "original_string" {
+ {
 default= "Montreal College Information Technology"
 }
 
