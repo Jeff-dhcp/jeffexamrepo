@@ -13,6 +13,26 @@ default= "westeurope"
 
 
 
+variable = "original_string" {
+default= "Montreal College Information Technology"
+}
+
+out "string_lenght" {
+value = length(var.original_string)
+}
+
+}
+# Function 1: Lenght of the string
+output "string_lenght" {
+value = length(var.original_string)
+}
+
+# Function 2 : upper case the string
+output "uppercase_string" {
+value = upper (var.original_string)
+)
+
+
 
 
 
@@ -64,3 +84,13 @@ variable "os_type" {
 type=string
 default = "Windows"
 }
+
+variable "original_string" {
+type=string
+
+default= "lambo" 
+}
+
+
+
+
