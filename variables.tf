@@ -26,7 +26,7 @@ value = length(var.original_string)
 
 # Function 2 : upper case the string
 output "uppercase_string" {
-value = uppercase (var.original_string)
+value = uppercase(var.original_string)
 }
 
 
